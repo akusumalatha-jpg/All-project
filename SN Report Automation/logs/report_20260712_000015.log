@@ -1,0 +1,26 @@
+2026-07-12 00:00:15,270 - src.utils - INFO - Logging initialized. Log file: C:\Users\Admin\Documents\SN Report Automation\logs\report_20260712_000015.log
+2026-07-12 00:00:15,272 - src.utils - INFO - Logging initialized. Log file: C:\Users\Admin\Documents\SN Report Automation\logs\report_20260712_000015.log
+2026-07-12 00:00:15,272 - src.utils - INFO - ============================================================
+2026-07-12 00:00:15,273 - src.utils - INFO - SN Report Automation v1.0.0
+2026-07-12 00:00:15,273 - src.utils - INFO - ============================================================
+2026-07-12 00:00:19,001 - src.utils - INFO - GUI initialized
+2026-07-12 00:00:49,080 - src.utils - INFO - Starting full workflow...
+2026-07-12 00:00:49,080 - src.utils - INFO - Step 1: Reading Excel file...
+2026-07-12 00:00:49,158 - src.excel_reader - INFO - Loaded workbook: Core-Competencies-Data.xlsx
+2026-07-12 00:00:49,158 - src.utils - INFO - Found sheets: ['Summary', 'Categories', 'Skills']
+2026-07-12 00:00:49,158 - src.excel_reader - INFO - Read 5 rows from sheet 'Summary'
+2026-07-12 00:00:49,158 - src.utils - INFO - Loaded 5 records
+2026-07-12 00:00:49,158 - src.utils - INFO - Step 2: Calculating metrics...
+2026-07-12 00:00:49,158 - src.metrics - INFO - Counted 5 records
+2026-07-12 00:00:49,158 - src.metrics - ERROR - Error calculating sum: could not convert string to float: 'Overall Average'
+2026-07-12 00:00:49,158 - src.metrics - ERROR - Error calculating average: could not convert string to float: 'Overall Average'
+2026-07-12 00:00:49,158 - src.metrics - INFO - Created summary with 1 KPIs
+2026-07-12 00:00:49,158 - src.utils - INFO - Calculated 1 KPIs
+2026-07-12 00:00:49,158 - src.utils - INFO - Step 3: Generating charts...
+2026-07-12 00:00:49,158 - src.utils - INFO - Charts saved to: C:\Users\Admin\Documents\SN Report Automation\charts
+2026-07-12 00:00:49,158 - src.utils - INFO - Step 4: Updating PowerPoint...
+2026-07-12 00:00:49,174 - src.ppt_updater - INFO - Created blank presentation
+2026-07-12 00:00:49,185 - src.ppt_updater - INFO - Added slide: Report Summary
+2026-07-12 00:00:49,186 - src.ppt_updater - INFO - Added text box to slide 0
+2026-07-12 00:00:49,230 - src.ppt_updater - INFO - Saved presentation: C:\Users\Admin\Documents\SN Report Automation\output\report_20260712_000015.pptx
+2026-07-12 00:00:49,230 - src.utils - INFO - Report saved: C:\Users\Admin\Documents\SN Report Automation\output\report_20260712_000015.pptx
