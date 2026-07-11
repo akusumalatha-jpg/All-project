@@ -1,0 +1,9 @@
+2026-07-11 23:51:40,632 - src.utils - INFO - Logging initialized. Log file: C:\Users\Admin\Documents\SN Report Automation\logs\report_20260711_235140.log
+2026-07-11 23:51:40,632 - src.utils - INFO - ============================================================
+2026-07-11 23:51:40,633 - src.utils - INFO - SN Report Automation v1.0.0
+2026-07-11 23:51:40,633 - src.utils - INFO - ============================================================
+2026-07-11 23:51:40,634 - src.excel_reader - INFO - Found 0 Excel files
+2026-07-11 23:51:40,634 - src.utils - WARNING - No Excel files in input directory
+2026-07-11 23:51:40,635 - src.utils - INFO - Please add Excel files to: input/
+2026-07-11 23:51:40,636 - src.utils - INFO - Running minimal test...
+2026-07-11 23:51:40,719 - src.ppt_updater - INFO - Created blank presentation
