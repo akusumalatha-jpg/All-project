@@ -1,0 +1,20 @@
+{
+  "stakeholder_file": "../data/stakeholders.csv",
+  "attachments_folder": "../data/attachments",
+  "output_log": "../data/logs/send_log.csv",
+  "email": {
+    "subject": "Data Certification Reminder",
+    "from": "datacertification@company.com",
+    "reply_to": "datacertification@company.com"
+  },
+  "email_backend": "graph",
+  "graph": {
+    "tenant_id": "YOUR_TENANT_ID",
+    "client_id": "YOUR_CLIENT_ID",
+    "client_secret": "YOUR_CLIENT_SECRET",
+    "shared_mailbox": "datacertification@company.com"
+  },
+  "outlook": {
+    "shared_mailbox": "datacertification@company.com"
+  }
+}
