@@ -1,0 +1,5 @@
+pandas>=2.0
+openpyxl
+requests
+msal
+pywin32; platform_system == "Windows"
